@@ -6,7 +6,7 @@
 
 (require reloadable)
 (require racket/runtime-path)
-(require "hash-utils.rkt")
+(require "util/hash-utils.rkt")
 
 (define *config* (make-persistent-state '*config* (lambda () (hash))))
 

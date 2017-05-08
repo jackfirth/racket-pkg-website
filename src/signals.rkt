@@ -6,7 +6,7 @@
 
 (require (only-in racket/file file->string))
 (require reloadable)
-(require "daemon.rkt")
+(require "util/daemon.rkt")
 
 (define (poll-signal signal-file-name message handler)
   (when (file-exists? signal-file-name)

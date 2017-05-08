@@ -9,9 +9,9 @@
          lookup-session/touch!
          lookup-session)
 
-(require "randomness.rkt")
 (require "config.rkt")
-(require "hash-utils.rkt")
+(require "util/hash-utils.rkt")
+(require "util/randomness.rkt")
 (require reloadable)
 
 (define current-session (make-parameter #f))

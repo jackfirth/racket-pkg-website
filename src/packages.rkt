@@ -26,9 +26,9 @@
 (require net/url)
 (require reloadable)
 (require "config.rkt")
-(require "daemon.rkt")
-(require "rpc.rkt")
-(require "hash-utils.rkt")
+(require "util/daemon.rkt")
+(require "util/rpc.rkt")
+(require "util/hash-utils.rkt")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

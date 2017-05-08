@@ -8,7 +8,7 @@
 (require web-server/managers/lru)
 (require reloadable)
 (require "signals.rkt")
-(require "daemon.rkt")
+(require "util/daemon.rkt")
 
 (define (start-service* #:port [port 7443]
                         #:ssl? [ssl? #t]
